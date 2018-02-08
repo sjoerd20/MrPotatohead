@@ -17,8 +17,21 @@ public class MainActivity extends AppCompatActivity {
 
     // Method to check which checkbox is clicked and calls setVisibilityimage to change visibility
     public void checkClicked(View v) {
-        Log.d("potato", "checkClicked");
+        String[] bodypartsArray = new String[]{"Arms", "Hat", "Mustache", "Shoes", "Eyebrows",
+                                                "Eyes", "Ears", "Glasses", "Mouth", "Nose"};
+        int[] idArray = new int[]{R.id.armsView, R.id.hatView, R.id.mustacheView, R.id.shoesView,
+                                    R.id.eyebrowsView, R.id.eyesView, R.id.earsView,
+                                    R.id.glassesView, R.id.mouthView, R.id.noseView};
         CheckBox checkbox = (CheckBox) v;
+        Log.d("potato", "checkClicked");
+
+        for (int i = 0; i < 8; i++) {
+            if (checkbox.getText().toString().equals(bodypartsArray[i])) {
+                ImageView image = (ImageView) findViewById(idArray[i]);
+                setVisibilityimage(checkbox, image, v);
+                break;
+            }
+        }
         if (checkbox.getText().toString().equals("Arms")) {
             ImageView imageArms = (ImageView) findViewById(R.id.armsView);
             setVisibilityimage(checkbox, imageArms, v);
