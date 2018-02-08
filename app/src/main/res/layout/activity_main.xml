@@ -6,13 +6,92 @@
     android:layout_height="match_parent"
     tools:context="com.example.sjoerd.mprogpotatohead.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="285dp"
+        android:layout_height="348dp"
+        android:adjustViewBounds="false"
+        app:srcCompat="@drawable/body"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="16dp" />
 
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="285dp"
+        android:layout_height="348dp"
+        app:srcCompat="@drawable/arms"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="15dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="284dp"
+        android:layout_height="348dp"
+        app:srcCompat="@drawable/ears"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="284dp"
+        android:layout_height="348dp"
+        app:srcCompat="@drawable/eyebrows"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="285dp"
+        android:layout_height="347dp"
+        app:srcCompat="@drawable/eyes"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="285dp"
+        android:layout_height="347dp"
+        app:srcCompat="@drawable/glasses"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="285dp"
+        android:layout_height="348dp"
+        app:srcCompat="@drawable/hat"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="284dp"
+        android:layout_height="348dp"
+        app:srcCompat="@drawable/mouth"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="285dp"
+        android:layout_height="347dp"
+        app:srcCompat="@drawable/mustache"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="284dp"
+        android:layout_height="347dp"
+        app:srcCompat="@drawable/nose"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="285dp"
+        android:layout_height="348dp"
+        app:srcCompat="@drawable/shoes"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="16dp" />
 </android.support.constraint.ConstraintLayout>
