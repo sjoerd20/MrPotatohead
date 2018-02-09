@@ -2,19 +2,16 @@ package com.example.sjoerd.mprogpotatohead;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.CheckBox;
 import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
-
     String[] bodypartsArray = new String[]{"Arms", "Hat", "Mustache", "Shoes", "Eyebrows",
             "Eyes", "Ears", "Glasses", "Mouth", "Nose"};
     int[] idArray = new int[]{R.id.armsView, R.id.hatView, R.id.mustacheView, R.id.shoesView,
             R.id.eyebrowsView, R.id.eyesView, R.id.earsView,
             R.id.glassesView, R.id.mouthView, R.id.noseView};
-
 
     // saves which bodyparts are visible
     @Override

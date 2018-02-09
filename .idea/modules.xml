@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MrPotatohead.iml" filepath="$PROJECT_DIR$/MrPotatohead.iml" />
+      <module fileurl="file://D:\Studie\Natuurkunde\Informatica\AppStudio\AndroidStudioProjects\mprogPotatohead\MrPotatohead\MrPotatohead.iml" filepath="D:\Studie\Natuurkunde\Informatica\AppStudio\AndroidStudioProjects\mprogPotatohead\MrPotatohead\MrPotatohead.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://D:\Studie\Natuurkunde\Informatica\AppStudio\AndroidStudioProjects\mprogPotatohead\MrPotatohead\app\app.iml" filepath="D:\Studie\Natuurkunde\Informatica\AppStudio\AndroidStudioProjects\mprogPotatohead\MrPotatohead\app\app.iml" />
       <module fileurl="file://C:\Users\sjoer\AndroidStudioProjects\MrPotatohead\MrPotatohead\mprogPotatohead.iml" filepath="C:\Users\sjoer\AndroidStudioProjects\MrPotatohead\MrPotatohead\mprogPotatohead.iml" />
     </modules>
   </component>
